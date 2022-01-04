@@ -1,0 +1,403 @@
+/**
+* border radius
+*/
+
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+/* cart badge */
+
+.cart-badge,
+.cart-badge:hover {
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 12px;
+  font-style: italic;
+  background: #000;
+}
+/**
+* single product page - product name
+*/
+
+.name {
+  background: indigo;
+  color: #fff;
+  font-weight: bold;
+}
+
+.list-group {
+  list-style: none;
+  padding: 5px;
+}
+.list-group-item {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.list-group-item.active,
+.list-group-item:hover {
+  background-color: rgb(240, 240, 255);
+}
+.icons {
+  margin-right: 5px;
+
+  font-size: 30px !important;
+}
+.adminwrapper {
+  padding: 20px;
+  color: #555;
+}
+/* featuredInfo Style */
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.featuredItem {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.featuredTitle {
+  font-size: 20px;
+}
+
+.featuredMoneyContainer {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.featuredMoney {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.featuredMoneyRate {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.featuredIcon {
+  font-size: 14px;
+  margin-left: 5px;
+  color: green;
+}
+
+.featuredIcon.negative {
+  color: red;
+}
+
+.featuredSub {
+  font-size: 15px;
+  color: gray;
+}
+/**
+
+/* testing */
+/* black shade form 10-1 */
+.black-10 {
+  background: #f2f2f2;
+}
+.black-9 {
+  background: #e6e6e6;
+}
+.black-8 {
+  background: #d9d9d9;
+}
+.black-7 {
+  background: #cccccc;
+}
+.black-6 {
+  background: #bfbfbf;
+}
+.black-5 {
+  background: #b3b3b3;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Poppins:wght@200;300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+  box-sizing: border-box;
+}
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+/* cart badge */
+
+.cart-badge,
+.cart-badge:hover {
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 12px;
+  font-style: italic;
+  background: #000;
+}
+/**
+  * single product page - product name
+  */
+
+.name {
+  background: indigo;
+  color: #fff;
+  font-weight: bold;
+}
+
+/**
+  * product image on card
+  */
+
+.product-img {
+  min-height: 100px;
+}
+
+.jumbotron h2 {
+  margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbotron h2 {
+    margin-top: 10px;
+  }
+}
+
+/**
+  * jumbotron animation
+  */
+
+.jumbotron {
+  height: 180px;
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.header__logo--text {
+  font-family: "Dancing Script", cursive;
+}
+.banner__img {
+  filter: brightness(0.5);
+}
+.banner__title {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  text-transform: capitalize;
+}
+.banner__description {
+  color: #ff9900;
+  font-weight: 500;
+  font-size: 18px;
+}
+.nav__menu--link:active {
+  outline: none;
+  border: none;
+}
+.nav__menu--link:focus {
+  outline: none;
+  border: none;
+}
+/* CoursesList section css */
+.product {
+  margin-bottom: 30px;
+}
+
+.product__card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.product__card:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.product__img img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.product__caption {
+  padding: 29px 20px 20px 20px;
+}
+
+.product__caption h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .product__caption h3 {
+    font-size: 16px;
+  }
+}
+
+.product__caption .product__category {
+  color: rgb(63, 81, 181);
+}
+.product__category span {
+  font-weight: 600;
+  color: #ff9900;
+}
+.product__caption p span {
+  font-size: 16px;
+}
+.badge {
+  font-weight: normal;
+  padding: 0.5rem 0.8rem;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .product__caption p span {
+    font-size: 12px;
+  }
+}
+
+.product__footer {
+  margin-bottom: 22px;
+  transition: 0.4s;
+}
+
+@media (max-width: 575px) {
+  .product__footer {
+    padding: 19px 10px 20px 12px;
+  }
+}
+
+.product__footer .restaurant-name p {
+  display: inline-block;
+  color: #6e7697;
+}
+
+.product__footer .price span {
+  cursor: pointer;
+  font-weight: 600;
+  color: #ff9900;
+  font-size: 26px;
+}
+.total__price span {
+  color: #ff9900;
+}
+h2 {
+  color: #44474d;
+}
+/* Review CSS */
+.reviews {
+  margin: 50px 0;
+  padding: 50px 0;
+  background-image: linear-gradient(
+      to left bottom,
+      rgba(41, 37, 96, 0.5) 0%,
+      rgba(93, 177, 255, 0.3) 100%
+    ),
+    url("https://phone-shop-cb821.web.app/static/media/yellow-black-cyan-wallpaper-wallpaper-2560x1080_14.d5a26082.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.review-title {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+
+.reviews .card {
+  padding: 15px 25px;
+  border: none;
+  box-shadow: -1px 3px 5px #a7a7a7;
+  border-radius: 8px !important;
+  transition: all 0.3s ease;
+}
+.reviews .card:hover {
+  transform: translateY(-20px);
+}
+.reviews .card img {
+  width: 50px !important;
+  border-radius: 50%;
+}
+.testimonial {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  font-weight: 500;
+}
+
+.active-star {
+  color: #fbc02d;
+  margin-bottom: 8px;
+}
+
+.active-star:hover {
+  color: #f9a825;
+  cursor: pointer;
+}
+
+.profile {
+  padding-top: 10px;
+}
+
+.author__name {
+  font-weight: 700;
+}
+
+.designation {
+  font-size: 0.84rem;
+  font-weight: 600;
+}
